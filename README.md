@@ -29,9 +29,11 @@ only the input layer and output layer are trained. Also, BN layers are frozen.
 For other setups, please modify the training script (argparser would be added later).
 
 
-## Knonw Issues
+## Known Issues
 This code cannot reach the performance reported in the original paper on ModelNet40. This code gets ~54% top-1 accuray with Sparse 3D-ResNet-18, 
 when only input and output layers are trained. But the paper gets 78.69%.
+
+(Interestingly, with random initialized weight, the model reaches ~66%, if only input and output layers are trained)
 
 More finetuning and debugging is needed. Any suggestions are welcome.
 

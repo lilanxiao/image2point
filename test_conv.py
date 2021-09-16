@@ -1,3 +1,5 @@
+# test the behaviour of MinkowsiConvolution
+
 import MinkowskiEngine as ME
 import torch
 import numpy as np
