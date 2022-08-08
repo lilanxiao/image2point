@@ -2,6 +2,9 @@
 Unoffical implementation of [Image2Point](https://arxiv.org/abs/2106.04180) paper.
 
 
+## Notice
+**2022.8.8:** This repo is not maintained anymore, as the paper is revised and the official repo is available. 
+
 ## Requirements
 Following dependencies are required:
 - Pytorch (tested with v.1.8)
